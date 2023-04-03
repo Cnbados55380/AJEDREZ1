@@ -8,8 +8,8 @@ void OnDraw(void); //esta funcion sera llamada para dibujar
 void OnTimer(int value); //esta funcion sera llamada cuando transcurra una temporizacion
 void OnKeyboardDown(unsigned char key, int x, int y); //cuando se pulse una tecla	
 
-ETSIDI::Sprite pantallaInicio("C:/Users/Cristina/source/repos/pruebajuego2/imagen/start.png", 0, 0, 8000, 6000);
-ETSIDI::Sprite tablero("C:/Users/Cristina/source/repos/pruebajuego2/imagen/Tablero.png", 0, 0, 8000, 6000);
+ETSIDI::Sprite pantallaInicio("C:/Users/Cristina/source/repos/pruebajuego2/imagen/start.png", 0, 0, 2, 3);
+ETSIDI::Sprite tablero("C:/Users/Cristina/source/repos/pruebajuego2/imagen/Tablero.png", 0, 0, 2, 3);
 
 bool juegoIniciado = false;
 
