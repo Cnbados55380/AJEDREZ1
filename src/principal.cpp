@@ -1,5 +1,8 @@
 #include "ETSIDI.h"
+#include <iostream> 
 #include "freeglut.h"
+#include "tablero.h"
+
 
 //los callback, funciones que seran llamadas automaticamente por la glut
 //cuando sucedan eventos
@@ -8,10 +11,13 @@ void OnDraw(void); //esta funcion sera llamada para dibujar
 void OnTimer(int value); //esta funcion sera llamada cuando transcurra una temporizacion
 void OnKeyboardDown(unsigned char key, int x, int y); //cuando se pulse una tecla	
 
-ETSIDI::Sprite pantallaInicio("C:/Users/Cristina/source/repos/pruebajuego2/imagen/start.png", 0, 0, 2, 3);
-ETSIDI::Sprite tablero("C:/Users/Cristina/source/repos/pruebajuego2/imagen/Tablero.png", 0, 0, 2, 3);
+ETSIDI::Sprite pantallaInicio("C:/Users/Cristina/source/repos/pruebajuego2/imagen/inicio.png", 0, 0, 2, 2);
+//ETSIDI::Sprite tablero("C:/Users/Cristina/source/repos/pruebajuego2/imagen/tablero1.png", 0, 0, 2, 3);
 
 bool juegoIniciado = false;
+
+tablero mitablero;
+
 
 int main(int argc,char* argv[])
 {
@@ -35,10 +41,51 @@ int main(int argc,char* argv[])
 	glutTimerFunc(25,OnTimer,0);//le decimos que dentro de 25ms llame 1 vez a la funcion OnTimer()
 	glutKeyboardFunc(OnKeyboardDown);
 
-	//mundo.inicializa();
 		
 	//pasarle el control a GLUT,que llamara a los callbacks
 	glutMainLoop();	
 
 	return 0;   
+}
+
+void OnDraw(void)
+{
+	//Borrado de la pantalla	
+   	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+
+	//Para definir el punto de vista
+	glMatrixMode(GL_MODELVIEW);	
+	glLoadIdentity();
+	
+	if (!juegoIniciado) {
+
+		pantallaInicio.draw();
+	}
+	else {
+		
+		mitablero.dibuja();
+	}
+
+	//no borrar esta linea ni poner nada despues
+	glutSwapBuffers();
+}
+void OnKeyboardDown(unsigned char key, int x_t, int y_t)
+{
+	//poner aqui el código de teclado
+	if (key == 'i' || key == 'I') {
+		juegoIniciado = true;
+
+	}
+
+	glutPostRedisplay();
+}
+
+void OnTimer(int value)
+{
+//poner aqui el código de animacion
+	//ajedrez.mueve(0);
+
+	//no borrar estas lineas
+	glutTimerFunc(25,OnTimer,0);
+	glutPostRedisplay();
 }
