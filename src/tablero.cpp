@@ -4,14 +4,14 @@
 
 tablero::tablero() {
 
-	const char piezas[] = { 't', 'c', 'a', 'q', 'k', 'a', 'c', 't' };
+	const char piezas[] = { 't', 'c', 'a', 'q', 'k', 'a', 'c', 't' }; //Tipo de pieza: torre, caballo...
 
 	//Letras minusculas-Negras, Letras mayusculas--Blancas
 	for (int i = 0; i < 8; i++) {
 		casilla[0][i] = piezas[i];
 		casilla[1][i] = 'p';
 		casilla[6][i] = 'P';
-		casilla[7][i] = piezas[i] - 32; // convertir a mayúsculas para las piezas blancas
+		casilla[7][i] = piezas[i] - 32; // convertir a mayÃºsculas para las piezas blancas
 		for (int j = 2; j < 6; j++) {
 			casilla[j][i] = ' ';
 		}
@@ -22,6 +22,7 @@ tablero::~tablero() {
 	// destructor
 }
 
+//Intento de incluir las imagenes de las piezas
 const std::string nombresPiezas[] = {
 
 	"C:/Users/Cristina/source/repos/pruebajuego2/imagen/torre_blanca.png",
@@ -41,7 +42,8 @@ void tablero::dibuja() {
 	ETSIDI::Sprite tablero("C:/Users/Cristina/source/repos/pruebajuego2/imagen/tablero1.png", 0, 0, 2, 3);
 	tablero.draw();
 
-	//ETSIDI::Sprite sprite;
+	//Intento de colocar las piezas en el tablero
+	
 /*
 	for (int i = 0; i < 8; i++) {
 		for (int j=0; j < 8; j++) {
