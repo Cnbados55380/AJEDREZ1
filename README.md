@@ -7,7 +7,7 @@ Participantes:
   
   -Jorge López Montero ()
   
-  -Alejandro Palomo de la Peña ()
+  -Alejandro Palomo de la Peña (55393)
   
   -Mónica Sancristán Sánchez()
   
