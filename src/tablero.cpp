@@ -64,8 +64,6 @@ void Tablero::piezasTablero() {
 	//Reyes
 	Rey* kb = new Rey('B');
 	Rey* kn = new Rey('N');
-	//coloca las piezas en cada casilla
-  // Torre(t), Caballo(c), Peon (p), Rey(k), Reina(q), Alfil (a)
 
 	//PRIMERA FILA BLANCA
 	casillas[0][0]->colocarPieza(t1b);
