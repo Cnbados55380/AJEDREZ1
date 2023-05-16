@@ -20,7 +20,3 @@ int Casilla::getColumna() {
 	return columna;
 }
 
-void Casilla::setTipoCasilla(int x)
-{
-	tipocasilla = x;
-}
