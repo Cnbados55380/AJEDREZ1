@@ -7,13 +7,10 @@ Casilla::Casilla(int x, int y)
 	columna = x;
 	fila = y;
 	ocupada = false;
-	tipoPieza = 0;
-	pieza = NULL;
+	tipoPieza = 0; 
 }
 
-void Casilla::colocarPieza(Pieza* p) {}
-
-void Casilla::draw(){}
+void Casilla::colocarPieza(Pieza* pieza) {}
 
 int Casilla::getFila() {
 	return fila;
