@@ -1,14 +1,9 @@
 #include "Tablero.h"
 #include "freeglut.h"
 
-
-Casilla* Tablero::casillas[8][8];
-ListaPiezas Tablero::piezas;
-
 Tablero::Tablero() {}
 
 void Tablero::piezasTablero() {
-
 
 	piezas.inicializa();
 
