@@ -8,15 +8,12 @@ class Casilla
 	int fila;
 	int columna;
 	bool ocupada;
-	int tipoPieza; //  VACIO(0) PEON(1) TORRE(2) ALFIL(3) CABALLO(4) REINA(5) REY(6)
+	int tipoPieza; // nada = 0, peon = 1, torre = 2, caballo = 3, alfil = 4, reina = 5, reina = 6
 	Pieza* pieza;
-	int tipocasilla;
+	int tipocasilla; //ocupada=0, llena = 1
 
 
-/*	ETSIDI::Sprite casilla_seleccionada{ "C:/Users/Cristina/source/repos/trabajo_prueba/imagen/casilla/casilla_seleccionada.png",1000, 1000,8,8 };
-	ETSIDI::Sprite casilla_legal{ "C:/Users/Cristina/source/repos/trabajo_prueba/imagen/casilla/casilla_legal.png",1000, 1000,8,8 };
-	ETSIDI::Sprite casilla_atacada{ "C:/Users/Cristina/source/repos/trabajo_prueba/imagen/casilla/casilla_atacada.png",1000, 1000,8,8 };
-*/
+
 public:
 
 	Casilla(int x, int y);
