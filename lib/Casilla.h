@@ -7,10 +7,9 @@ class Casilla
 {
 	int fila;
 	int columna;
-	bool ocupada;
 	int tipoPieza; // nada = 0, peon = 1, torre = 2, caballo = 3, alfil = 4, reina = 5, reina = 6
 	Pieza* pieza;
-	int tipocasilla; //ocupada=0, llena = 1
+	bool tipocasilla; //ocupada=false, llena = true
 
 
 
@@ -24,5 +23,4 @@ public:
 	int getFila();
 	int getColumna();
 
-	void setTipoCasilla(int x); //ocupada o llena
 };
