@@ -1,5 +1,4 @@
-#include "Peon.h"
-#include "Tablero.h"
+#include "Alfil.h"
 
 Alfil::Alfil(char colorEquipo)
 {

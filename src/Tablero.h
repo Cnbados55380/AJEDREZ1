@@ -1,25 +1,14 @@
 #pragma once
-#include "Casilla.h"
-#include "Peon.h"
-#include "ETSIDI.h"
+
+
+
 #include "Pieza.h"
-#include "ListaPiezas.h"
-#include "Torre.h"
-#include "Alfil.h"
-#include "Caballo.h"
-#include "Rey.h"
-#include "Reina.h"
-
-
 class Tablero {
 
 private:
 
-	Casilla* casillas[8][8];
-	ListaPiezas piezas;
-	int i, j;
-	
-	ETSIDI::Sprite tableroAjedrez{ "C:/Users/Cristina/source/repos/trabajo_prueba/imagen/TABLERO1/TABLERO.png",0,0,160,90 };
+	Pieza* casillas[8][8]{};
+	ETSIDI::Sprite tableroAjedrez{ "imagen/TABLERO1/TABLERO.png",0,0,160,90 };
 	
 public:
 	Tablero();
