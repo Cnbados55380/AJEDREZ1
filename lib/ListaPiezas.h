@@ -5,13 +5,14 @@
 
 class ListaPiezas {
 private:
-	Pieza* lista[MAX];
+	Pieza* lista[MAX]{};
 	int numero = 0;
 	ETSIDI::Vector2D pos;
 
 
 public:
 	ListaPiezas();
+	~ListaPiezas() {};
 	void inicializa();
 
 	bool agregar(Pieza* p);
@@ -21,6 +22,7 @@ public:
 	//Esfera* colision(Hombre& h);
 	//void eliminar(int index);
 	//void eliminar(Esfera* e);
+	//void destruirContenido();
 	
 
 };
