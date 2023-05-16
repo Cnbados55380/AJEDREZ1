@@ -14,11 +14,11 @@ void ListaPiezas::inicializa()
 
 bool ListaPiezas::agregar(Pieza* p)
 {
-	if (numero < MAX)
-		lista[numero++] = p;
-	else
-		return false; // capacidad máxima alcanzada
-	return true;
+	if (numero < MAX) {
+		lista[numero++] = p; //Ultimo puesto sin rellenar
+		return true;
+	}
+	return false; 
 }
 
 void ListaPiezas::draw()
