@@ -9,7 +9,7 @@ class Casilla
 	int columna;
 	int tipoPieza; // nada = 0, peon = 1, torre = 2, caballo = 3, alfil = 4, reina = 5, reina = 6
 	Pieza* pieza;
-	bool tipocasilla; //ocupada=false, llena = true
+	bool tipocasilla; //vacia=false, llena = true
 
 
 
