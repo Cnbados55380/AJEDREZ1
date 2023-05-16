@@ -8,67 +8,67 @@ class Usuario {
 private:
 
 	//start
-	//ETSIDI::Sprite pantallaInicio{ "C:/Users/aleja/OneDrive/Escritorio/C UNIVERSIDAD/tema4inicial_VS19x64/image/menu/start game.png", 0, 0, 2, 2 };
+	//ETSIDI::Sprite pantallaInicio{ "imagen/menu/start game.png", 0, 0, 2, 2 };
 
 
 	//MENU principal
 	//
-	ETSIDI::Sprite menuinicio{ "C:/Users/aleja/OneDrive/Escritorio/C UNIVERSIDAD/tema4inicial_VS19x64/image/menu/MENU.png",0,0,160,90 };
-	ETSIDI::Sprite menuOpciones{ "C:/Users/aleja/OneDrive/Escritorio/C UNIVERSIDAD/tema4inicial_VS19x64/image/menu/M_Opciones.png" ,0,0,160,90 };
-	ETSIDI::Sprite menuModoJuego{ "C:/Users/aleja/OneDrive/Escritorio/C UNIVERSIDAD/tema4inicial_VS19x64/image/menu/M_ModoJuego.png" ,0,0,160,90};
+	ETSIDI::Sprite menuinicio{ "imagen/menu/MENU.png",0,0,160,90 };
+	ETSIDI::Sprite menuOpciones{ "imagen/menu/M_Opciones.png" ,0,0,160,90 };
+	ETSIDI::Sprite menuModoJuego{ "imagen/menu/M_ModoJuego.png" ,0,0,160,90};
 	
 	///MENU JUEGO
-	ETSIDI::Sprite ModoJuego{ "C:/Users/aleja/OneDrive/Escritorio/C UNIVERSIDAD/tema4inicial_VS19x64/image/menu/MODODEJUEGO/MODODEJUEGO.png" ,0,0,160,90 };
-	ETSIDI::Sprite M_Jugador{ "C:/Users/aleja/OneDrive/Escritorio/C UNIVERSIDAD/tema4inicial_VS19x64/image/menu/MODODEJUEGO/M_JUGADOR.png" ,0,0,160,90 };
-	ETSIDI::Sprite M_IA{ "C:/Users/aleja/OneDrive/Escritorio/C UNIVERSIDAD/tema4inicial_VS19x64/image/menu/MODODEJUEGO/M_IA.png" ,0,0,160,90 };
+	ETSIDI::Sprite ModoJuego{ "imagen/menu/MODODEJUEGO/MODODEJUEGO.png" ,0,0,160,90 };
+	ETSIDI::Sprite M_Jugador{ "imagen/menu/MODODEJUEGO/M_JUGADOR.png" ,0,0,160,90 };
+	ETSIDI::Sprite M_IA{ "imagen/menu/MODODEJUEGO/M_IA.png" ,0,0,160,90 };
 
 	//JUGvsJUG
-	ETSIDI::Sprite JugJug{ "C:/Users/aleja/OneDrive/Escritorio/C UNIVERSIDAD/tema4inicial_VS19x64/image/menu/MODODEJUEGO/JUGvsJUG/JUGvsJUG.png",0,0,160,90 };
-	ETSIDI::Sprite M_JugNegro{ "C:/Users/aleja/OneDrive/Escritorio/C UNIVERSIDAD/tema4inicial_VS19x64/image/menu/MODODEJUEGO/JUGvsJUG/JUG_NEGRO.png" ,0,0,160,90 };
-	ETSIDI::Sprite M_JugBlanco{ "C:/Users/aleja/OneDrive/Escritorio/C UNIVERSIDAD/tema4inicial_VS19x64/image/menu/MODODEJUEGO/JUGvsJUG/JUG_BLANCO.png" ,0,0,160,90 };
+	ETSIDI::Sprite JugJug{ "imagen/menu/MODODEJUEGO/JUGvsJUG/JUGvsJUG.png",0,0,160,90 };
+	ETSIDI::Sprite M_JugNegro{ "imagen/menu/MODODEJUEGO/JUGvsJUG/JUG_NEGRO.png" ,0,0,160,90 };
+	ETSIDI::Sprite M_JugBlanco{ "imagen/menu/MODODEJUEGO/JUGvsJUG/JUG_BLANCO.png" ,0,0,160,90 };
 
 	//TABLERO
-	ETSIDI::Sprite Tablero{ "C:/Users/aleja/OneDrive/Escritorio/C UNIVERSIDAD/tema4inicial_VS19x64/image/TABLERO1/TABLERO.png",0,0,160,90 };
+	ETSIDI::Sprite Tablero{ "imagen/TABLERO1/TABLERO.png",0,0,160,90 };
 
 
 	//MENU opciones
 
-	ETSIDI::Sprite Opciones{"C:/Users/aleja/OneDrive/Escritorio/C UNIVERSIDAD/tema4inicial_VS19x64/image/menu/OPCIONES/OPCIONES.png",0,0,160,90};
-	ETSIDI::Sprite OpcionesInst{ "C:/Users/aleja/OneDrive/Escritorio/C UNIVERSIDAD/tema4inicial_VS19x64/image/menu/OPCIONES/O_Instrucciones.png" ,0,0,160,90};
-	ETSIDI::Sprite OpcionesAyud{ "C:/Users/aleja/OneDrive/Escritorio/C UNIVERSIDAD/tema4inicial_VS19x64/image/menu/OPCIONES/O_Ayuda.png" ,0,0,160,90 };
-	ETSIDI::Sprite OpcionesAtras{ "C:/Users/aleja/OneDrive/Escritorio/C UNIVERSIDAD/tema4inicial_VS19x64/image/menu/OPCIONES/O_Atras.png" ,0,0,160,90 };
+	ETSIDI::Sprite Opciones{"imagen/menu/OPCIONES/OPCIONES.png",0,0,160,90};
+	ETSIDI::Sprite OpcionesInst{ "imagen/menu/OPCIONES/O_Instrucciones.png" ,0,0,160,90};
+	ETSIDI::Sprite OpcionesAyud{ "imagen/menu/OPCIONES/O_Ayuda.png" ,0,0,160,90 };
+	ETSIDI::Sprite OpcionesAtras{ "imagen/menu/OPCIONES/O_Atras.png" ,0,0,160,90 };
 	
 	//OPCIONES-Instrucciones
 	
-	ETSIDI::Sprite Instrucciones{ "C:/Users/aleja/OneDrive/Escritorio/C UNIVERSIDAD/tema4inicial_VS19x64/image/menu/INSTRUCCIONES/INSTRUCCIONES.png",0,0,160,90 };
-	ETSIDI::Sprite InstruccionesCapP{ "C:/Users/aleja/OneDrive/Escritorio/C UNIVERSIDAD/tema4inicial_VS19x64/image/menu/INSTRUCCIONES/I_CapturaPaso.png" ,0,0,160,90 };
-	ETSIDI::Sprite InstruccionesCor{ "C:/Users/aleja/OneDrive/Escritorio/C UNIVERSIDAD/tema4inicial_VS19x64/image/menu/INSTRUCCIONES/I_Coronacion.png" ,0,0,160,90 };
-	ETSIDI::Sprite InstruccionesEnr{ "C:/Users/aleja/OneDrive/Escritorio/C UNIVERSIDAD/tema4inicial_VS19x64/image/menu/INSTRUCCIONES/I_Enroque.png" ,0,0,160,90 };
-	ETSIDI::Sprite InstruccionesJM{ "C:/Users/aleja/OneDrive/Escritorio/C UNIVERSIDAD/tema4inicial_VS19x64/image/menu/INSTRUCCIONES/I_JaqueMate.png",0,0,160,90 };
-	ETSIDI::Sprite InstruccionesObj{ "C:/Users/aleja/OneDrive/Escritorio/C UNIVERSIDAD/tema4inicial_VS19x64/image/menu/INSTRUCCIONES/I_Objetivo.png" ,0,0,160,90 };
-	ETSIDI::Sprite InstruccionesTab{ "C:/Users/aleja/OneDrive/Escritorio/C UNIVERSIDAD/tema4inicial_VS19x64/image/menu/INSTRUCCIONES/I_Tablas.png" ,0,0,160,90};
-	ETSIDI::Sprite ICP{ "C:/Users/aleja/OneDrive/Escritorio/C UNIVERSIDAD/tema4inicial_VS19x64/image/menu/INSTRUCCIONES/CAPTURAPASO.png" ,0,0,160,90 };
-	ETSIDI::Sprite ICor{ "C:/Users/aleja/OneDrive/Escritorio/C UNIVERSIDAD/tema4inicial_VS19x64/image/menu/INSTRUCCIONES/CORONACION.png",0,0,160,90 };
-	ETSIDI::Sprite IEnr{ "C:/Users/aleja/OneDrive/Escritorio/C UNIVERSIDAD/tema4inicial_VS19x64/image/menu/INSTRUCCIONES/ENROQUE.png" ,0,0,160,90};
-	ETSIDI::Sprite IJM{ "C:/Users/aleja/OneDrive/Escritorio/C UNIVERSIDAD/tema4inicial_VS19x64/image/menu/INSTRUCCIONES/JAQUE MATE.png" ,0,0,160,90 };
-	ETSIDI::Sprite IObj{ "C:/Users/aleja/OneDrive/Escritorio/C UNIVERSIDAD/tema4inicial_VS19x64/image/menu/INSTRUCCIONES/OBJETIVO.png" ,0,0,160,90 };
-	ETSIDI::Sprite ITab{ "C:/Users/aleja/OneDrive/Escritorio/C UNIVERSIDAD/tema4inicial_VS19x64/image/menu/INSTRUCCIONES/TABLAS.png" ,0,0,160,90 };
+	ETSIDI::Sprite Instrucciones{ "imagen/menu/INSTRUCCIONES/INSTRUCCIONES.png",0,0,160,90 };
+	ETSIDI::Sprite InstruccionesCapP{ "imagen/menu/INSTRUCCIONES/I_CapturaPaso.png" ,0,0,160,90 };
+	ETSIDI::Sprite InstruccionesCor{ "imagen/menu/INSTRUCCIONES/I_Coronacion.png" ,0,0,160,90 };
+	ETSIDI::Sprite InstruccionesEnr{ "imagen/menu/INSTRUCCIONES/I_Enroque.png" ,0,0,160,90 };
+	ETSIDI::Sprite InstruccionesJM{ "imagen/menu/INSTRUCCIONES/I_JaqueMate.png",0,0,160,90 };
+	ETSIDI::Sprite InstruccionesObj{ "imagen/menu/INSTRUCCIONES/I_Objetivo.png" ,0,0,160,90 };
+	ETSIDI::Sprite InstruccionesTab{ "imagen/menu/INSTRUCCIONES/I_Tablas.png" ,0,0,160,90};
+	ETSIDI::Sprite ICP{ "imagen/menu/INSTRUCCIONES/CAPTURAPASO.png" ,0,0,160,90 };
+	ETSIDI::Sprite ICor{ "imagen/menu/INSTRUCCIONES/CORONACION.png",0,0,160,90 };
+	ETSIDI::Sprite IEnr{ "imagen/menu/INSTRUCCIONES/ENROQUE.png" ,0,0,160,90};
+	ETSIDI::Sprite IJM{ "imagen/menu/INSTRUCCIONES/JAQUE MATE.png" ,0,0,160,90 };
+	ETSIDI::Sprite IObj{ "imagen/menu/INSTRUCCIONES/OBJETIVO.png" ,0,0,160,90 };
+	ETSIDI::Sprite ITab{ "imagen/menu/INSTRUCCIONES/TABLAS.png" ,0,0,160,90 };
 
 	//OPCIONES-Ayuda
 
-	ETSIDI::Sprite Ayuda{ "C:/Users/aleja/OneDrive/Escritorio/C UNIVERSIDAD/tema4inicial_VS19x64/image/menu/AYUDA PIEZAS/AYUDA.png",0,0,160,90};
-	ETSIDI::Sprite AyudaAlfil{ "C:/Users/aleja/OneDrive/Escritorio/C UNIVERSIDAD/tema4inicial_VS19x64/image/menu/AYUDA PIEZAS/A_Alfil.png" ,0,0,160,90 };
-	ETSIDI::Sprite AyudaCaballo{ "C:/Users/aleja/OneDrive/Escritorio/C UNIVERSIDAD/tema4inicial_VS19x64/image/menu/AYUDA PIEZAS/A_Caballo.png" ,0,0,160,90 };
-	ETSIDI::Sprite AyudaPeon{ "C:/Users/aleja/OneDrive/Escritorio/C UNIVERSIDAD/tema4inicial_VS19x64/image/menu/AYUDA PIEZAS/A_Peon.png" ,0,0,160,90 };
-	ETSIDI::Sprite AyudaReina{ "C:/Users/aleja/OneDrive/Escritorio/C UNIVERSIDAD/tema4inicial_VS19x64/image/menu/AYUDA PIEZAS/A_Reina.png",0,0,160,90 };
-	ETSIDI::Sprite AyudaRey{ "C:/Users/aleja/OneDrive/Escritorio/C UNIVERSIDAD/tema4inicial_VS19x64/image/menu/AYUDA PIEZAS/A_Rey.png",0,0,160,90 };
-	ETSIDI::Sprite AyudaTorre{ "C:/Users/aleja/OneDrive/Escritorio/C UNIVERSIDAD/tema4inicial_VS19x64/image/menu/AYUDA PIEZAS/A_Torre.png" ,0,0,160,90 };
-	ETSIDI::Sprite AAlfil{ "C:/Users/aleja/OneDrive/Escritorio/C UNIVERSIDAD/tema4inicial_VS19x64/image/menu/AYUDA PIEZAS/H_Alfil.png" ,0,0,160,90 };
-	ETSIDI::Sprite ACaballo{ "C:/Users/aleja/OneDrive/Escritorio/C UNIVERSIDAD/tema4inicial_VS19x64/image/menu/AYUDA PIEZAS/H_Caballo.png",0,0,160,90 };
-	ETSIDI::Sprite APeon{ "C:/Users/aleja/OneDrive/Escritorio/C UNIVERSIDAD/tema4inicial_VS19x64/image/menu/AYUDA PIEZAS/H_Peon.png" ,0,0,160,90 };
-	ETSIDI::Sprite AReina{ "C:/Users/aleja/OneDrive/Escritorio/C UNIVERSIDAD/tema4inicial_VS19x64/image/menu/AYUDA PIEZAS/H_Reina.png" ,0,0,160,90 };
-	ETSIDI::Sprite ARey{ "C:/Users/aleja/OneDrive/Escritorio/C UNIVERSIDAD/tema4inicial_VS19x64/image/menu/AYUDA PIEZAS/H_Rey.png" ,0,0,160,90 };
-	ETSIDI::Sprite ATorre{ "C:/Users/aleja/OneDrive/Escritorio/C UNIVERSIDAD/tema4inicial_VS19x64/image/menu/AYUDA PIEZAS/H_Torre.png" ,0,0,160,90 };
+	ETSIDI::Sprite Ayuda{ "imagen/menu/AYUDA PIEZAS/AYUDA.png",0,0,160,90};
+	ETSIDI::Sprite AyudaAlfil{ "imagen/menu/AYUDA PIEZAS/A_Alfil.png" ,0,0,160,90 };
+	ETSIDI::Sprite AyudaCaballo{ "imagen/menu/AYUDA PIEZAS/A_Caballo.png" ,0,0,160,90 };
+	ETSIDI::Sprite AyudaPeon{ "imagen/menu/AYUDA PIEZAS/A_Peon.png" ,0,0,160,90 };
+	ETSIDI::Sprite AyudaReina{ "imagen/menu/AYUDA PIEZAS/A_Reina.png",0,0,160,90 };
+	ETSIDI::Sprite AyudaRey{ "imagen/menu/AYUDA PIEZAS/A_Rey.png",0,0,160,90 };
+	ETSIDI::Sprite AyudaTorre{ "imagen/menu/AYUDA PIEZAS/A_Torre.png" ,0,0,160,90 };
+	ETSIDI::Sprite AAlfil{ "imagen/menu/AYUDA PIEZAS/H_Alfil.png" ,0,0,160,90 };
+	ETSIDI::Sprite ACaballo{ "imagen/menu/AYUDA PIEZAS/H_Caballo.png",0,0,160,90 };
+	ETSIDI::Sprite APeon{ "imagen/menu/AYUDA PIEZAS/H_Peon.png" ,0,0,160,90 };
+	ETSIDI::Sprite AReina{ "imagen/menu/AYUDA PIEZAS/H_Reina.png" ,0,0,160,90 };
+	ETSIDI::Sprite ARey{ "imagen/menu/AYUDA PIEZAS/H_Rey.png" ,0,0,160,90 };
+	ETSIDI::Sprite ATorre{ "imagen/menu/AYUDA PIEZAS/H_Torre.png" ,0,0,160,90 };
 	
 
 public:

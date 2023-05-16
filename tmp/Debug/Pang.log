@@ -1,2 +1,9 @@
 ﻿  Pang.cpp
-  Pang.vcxproj -> C:\Users\Cristina\source\repos\pruebajuego2\bin\Pang.exe
+C:\GITLAB\AJEDREZ1\src\Pang.cpp(59,2): warning C4551: la llamada a la función no tiene lista de argumentos
+C:\GITLAB\AJEDREZ1\src\Pang.cpp(96,3): warning C4551: la llamada a la función no tiene lista de argumentos
+C:\GITLAB\AJEDREZ1\src\Pang.cpp(124,54): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\GITLAB\AJEDREZ1\src\Pang.cpp(124,33): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\GITLAB\AJEDREZ1\src\Pang.cpp(128,14): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+  Usuario.cpp
+  Generando código...
+  Pang.vcxproj -> C:\GITLAB\AJEDREZ1\bin\Pang.exe

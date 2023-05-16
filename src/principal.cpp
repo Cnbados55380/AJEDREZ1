@@ -16,7 +16,7 @@ ETSIDI::Sprite pantallaInicio("C:/Users/Cristina/source/repos/pruebajuego2/image
 
 bool juegoIniciado = false;
 
-tablero mitablero;
+Tablero mitablero;
 
 
 int main(int argc,char* argv[])
