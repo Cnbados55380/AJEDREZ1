@@ -20,11 +20,9 @@ public:
 	//~Casilla(); //destructor
 
 	void colocarPieza(Pieza* pieza); //coloca una pieza en una casilla
-	void draw();
-
 	int getTipoPieza();
 	int getFila();
 	int getColumna();
 
-	void setTipoCasilla(int x);
+	void setTipoCasilla(int x); //ocupada o llena
 };
