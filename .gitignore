@@ -23,5 +23,5 @@ ipch
 *sdf
 *.exe
 
-tmp/
+tmp/**
 .vs/
