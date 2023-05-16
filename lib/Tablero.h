@@ -15,9 +15,8 @@ class Tablero {
 
 private:
 
-	static Casilla* casillas[8][8];
-
-	static ListaPiezas piezas;
+	Casilla* casillas[8][8];
+	ListaPiezas piezas;
 	int i, j;
 	
 	ETSIDI::Sprite tableroAjedrez{ "C:/Users/Cristina/source/repos/trabajo_prueba/imagen/TABLERO1/TABLERO.png",0,0,160,90 };
