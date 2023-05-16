@@ -32,12 +32,11 @@ public:
 	virtual void draw(); //Cualquier clase que herede este método(las piezas) puede redefinir este método
 	~Pieza();
 
-
 	void setpos(int x, int y);
-	void setCasilla(Casilla* c);
-	
 	int getTipoPieza();
 	char getColorPieza(); 
-	Casilla* getCasilla();
+	
+	void setCasilla(Casilla* c); //Establecer valor a la casilla
+	Casilla* getCasilla(); //Obtener valor actual de la casilla
 
 };
