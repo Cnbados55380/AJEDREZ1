@@ -6,7 +6,7 @@ Casilla::Casilla(int x, int y)
 {
 	columna = x;
 	fila = y;
-	ocupada = false;
+	tipocasilla = false; //vacia
 	tipoPieza = 0; 
 }
 
