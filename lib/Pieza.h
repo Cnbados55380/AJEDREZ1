@@ -29,8 +29,8 @@ protected:
 public:
 	Pieza();
 	Pieza(char colorJugador);
-	virtual void draw(); 
-	virtual ~Pieza();
+	virtual void draw(); //Cualquier clase que herede este método(las piezas) puede redefinir este método
+	~Pieza();
 
 
 	void setpos(int x, int y);
