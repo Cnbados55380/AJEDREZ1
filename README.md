@@ -5,7 +5,7 @@ Participantes:
 
   -Cristina Navarro Bados (55380)
   
-  -Jorge López Montero ()
+  -Jorge López Montero (55322)
   
   -Alejandro Palomo de la Peña (55393)
   
