@@ -1,7 +1,6 @@
 #pragma once
 #include "Tablero.h"
 #include "freeglut.h"
-
 #include "Peon.h"
 #include "ETSIDI.h"
 #include "Pieza.h"

@@ -2,6 +2,7 @@
 #include "freeglut.h"
 #include <iostream>
 #include "ETSIDI.h"
+#include "Tablero.h"
 
 
 class Usuario {
@@ -9,7 +10,7 @@ private:
 
 	//start
 	//ETSIDI::Sprite pantallaInicio{ "imagen/menu/start game.png", 0, 0, 2, 2 };
-
+	Tablero tablero;
 
 	//MENU principal
 	//

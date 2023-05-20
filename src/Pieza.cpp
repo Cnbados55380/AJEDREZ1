@@ -20,10 +20,7 @@ void Pieza::setpos(int x, int y)
 
 }
 
-void Pieza::setCasilla(Casilla* c)
-{
-	casilla = c;
-}
+
 
 int Pieza::getTipoPieza()
 {
@@ -35,9 +32,6 @@ char Pieza::getColorPieza()
 	return color;
 }
 
-Casilla* Pieza::getCasilla()
-{
-	return casilla;
-}
+
 
 

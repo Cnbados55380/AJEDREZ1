@@ -481,7 +481,8 @@ void Usuario::raton(int button, int state, int x, int y) {
 			}
 		}
 		if (estado == JVJ_blanco || estado == JVJ_negro) {
-			Tablero.draw();
+			tablero.piezasTablero();
+			tablero.dibuja();
 		}
 
 
